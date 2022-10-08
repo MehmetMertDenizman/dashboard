@@ -1,0 +1,17 @@
+ body{background-color: rgb(80, 80, 80);}
+.container{display: grid;row-gap: 15px ;
+    height: 100vh;
+grid-template-rows: repeat(2, 1fr);
+grid-template-columns: repeat(5, 1fr);
+ 
+
+resize: both;
+overflow: auto;
+}
+
+.container div{border: 2px solid rgb(255, 58, 58);
+ }
+
+ #dashboard{grid-column-start: 1;grid-column-end: 2;}
+ #dashboard{grid-row-start: 1;grid-row-end: 5;}
+ #header{grid-column-start: 2;grid-column-end: 6;}
